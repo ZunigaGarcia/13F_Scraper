@@ -88,7 +88,7 @@ def process_filing(filing):
             })
 
         if not data:
-            print(f"ATENCIÓN: EN [{url}] No se encontraron holdings COM") 
+            print(f"ATENCIÓN: EN [{url}] No se encontraron holdings COM ni COMMON STOCK") 
         return data
 
     except Exception as e:
